@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"image"
 
-	imgui "github.com/AllenDang/cimgui-go"
+	imgui "github.com/gabstv/cimgui-go"
 )
 
 var (

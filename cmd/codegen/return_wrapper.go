@@ -59,7 +59,7 @@ func getReturnWrapper(
 		"ImPlotTime":               wrappableR("PlotTime"),
 		"ImGuiTableColumnIdx":      simpleR("TableColumnIdx"),
 		"ImGuiTableDrawChannelIdx": simpleR("TableDrawChannelIdx"),
-		"void*":                    simpleR("unsafe.Pointer"), // TODO: disabled due to https://github.com/AllenDang/cimgui-go/issues/184
+		"void*":                    simpleR("unsafe.Pointer"), // TODO: disabled due to https://github.com/gabstv/cimgui-go/issues/184
 		"size_t":                   simpleR("uint64"),
 		"ImDrawIdx":                simpleR("DrawIdx"),
 		"ImDrawIdx*":               simplePtrR("DrawIdx"),
