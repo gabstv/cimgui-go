@@ -1,4 +1,4 @@
-module github.com/AllenDang/cimgui-go/cmd/codegen
+module github.com/gabstv/cimgui-go/cmd/codegen
 
 go 1.20
 
