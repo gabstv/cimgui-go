@@ -4,8 +4,6 @@ This is a **fork** of the AllenDang/cimgui-go library with the sole purpose to b
 The original GLFW 3.3 and OpenGL 3.2 backends were **removed** because the C/C++ dependencies are incompatible (and in this use case, redundant).
 You should most definitely use the **original** repository (AllenDang/cimgui-go) if you are not going to use [ebiten-imgui](https://github.com/gabstv/ebiten-imgui/).
 
-It works on macOS(arm64/x86), windows(x64), Arch Linux/KDE and Fedora Workstation 36, idealy other linux GUI should works but I don't have a linux machine to test it. Check out `examples`, cd in and `go run .`.
-
 ## cimgui-go
 
 This project aims to generate go wrapper for Dear ImGui.
